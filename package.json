@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/meshprot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mesh validation gates for prot inputs before they hit prod.",
+  "bin": {
+    "meshprot": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/meshprot.git"
+  },
+  "homepage": "https://theworker02.github.io/meshprot/",
+  "keywords": [
+    "mesh",
+    "prot",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
